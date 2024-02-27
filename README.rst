@@ -10,6 +10,7 @@ TODO:
 #open an issue for assemble() function to return offset
 #in addition to print it
 
+ESP32 (not S2 nor S3 or C3)
 
 GPIO4 - RTCGPIO10 - RTCIO_TOUCH_PAD0_REG = 0x3FF48494 
 0x94 -> 148

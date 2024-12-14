@@ -1,14 +1,8 @@
-TODO:
+configure scr_ulp.S from template scr_ulp_tpl.S
+map rtcio channel and TOUCH_PAD number from gpio
+assemble scr_ulp.ulp from scr_ulp.S
 
-#def configure()
-#configure scr_ulp.S from template scr_ulp_tpl.S
-#map channel and TOUCH_PAD# from gpio
-
-#def assemble()
-#assemble scr_ulp.ulp from scr_ulp.S
-#get offset of global symbols from assemble function
-#open an issue for assemble() function to return offset
-#in addition to print it
+todo: open an issue for assemble() function to return offset in addition to print it
 
 ESP32 (not S2 nor S3 or C3)
 

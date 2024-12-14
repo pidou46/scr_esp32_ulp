@@ -47,7 +47,7 @@ class SCR:
         self.ulp = ULP()
         print("Upload binary...")
         
-        with open('scr_ulp.ulp', 'r') as f:
+        with open('scr_ulp.ulp', 'rb') as f:
             self.ulp.load_binary(self.load_addr, f.read())
             print("Done")
 

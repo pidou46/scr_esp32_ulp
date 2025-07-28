@@ -7,8 +7,10 @@ Warning considering pin limitations:
 https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/gpio.html
 
 I would recommend:
+
 GPIO34 to GPIO39 for input
 GPIO32-GPIO33 for output
+
 If two pins are not sufficient for output, GPIO25-GPIO27 can be added if not using wifi
 
 todo: open an issue for assemble() function to return offset in addition to print it

@@ -2,6 +2,9 @@ configure scr_ulp.S from template scr_ulp_tpl.S
 map rtcio channel and TOUCH_PAD number from gpio
 assemble scr_ulp.ulp from scr_ulp.S
 
+Warning check pin limitation:
+https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/gpio.html
+
 todo: open an issue for assemble() function to return offset in addition to print it
 
 ESP32 (not S2 nor S3 or C3)

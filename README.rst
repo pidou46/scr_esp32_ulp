@@ -13,7 +13,7 @@ I would recommend:
 
 If two pins are not sufficient for output, GPIO25-GPIO27 can be added if not using wifi
 
-todo: open an issue for assemble() function to return offset in addition to print it
+todo: open an issue for assemble() function to return offset in addition to print it. This would ease automation.
 
 ESP32 (not S2 nor S3 or C3)
 

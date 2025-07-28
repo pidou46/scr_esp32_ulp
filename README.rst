@@ -17,6 +17,8 @@ todo: open an issue for assemble() function to return offset in addition to prin
 
 ESP32 (not S2 nor S3 or C3)
 
+DR_REG_RTCIO_BASE 0x3ff48400
+
 GPIO4 - RTCGPIO10 - RTCIO_TOUCH_PAD0_REG = 0x3FF48494 
 0x94 -> 148
 
